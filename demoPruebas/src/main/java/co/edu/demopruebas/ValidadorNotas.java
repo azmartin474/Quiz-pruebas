@@ -4,7 +4,7 @@ public class ValidadorNotas {
 
     public boolean esAprobado(double nota) {
         validarRango(nota);
-        return nota >= 3.6;
+        return nota >= 3.0;
     }
 
     public String clasificarNota(double nota) {
